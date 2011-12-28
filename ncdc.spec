@@ -14,6 +14,7 @@ License:	MIT
 BuildRequires:	ncurses-devel
 BuildRequires:	bzip2-devel
 BuildRequires:	glib2-devel
+BuildRequires:	sqlite3-devel	
 BuildRequires:	ncursesw-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	gdbm-devel
