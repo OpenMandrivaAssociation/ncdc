@@ -12,6 +12,7 @@ URL:		http://dev.yorhel.nl/ncdc
 Group:		Networking/File transfer
 License:	MIT
 BuildRequires:	ncurses-devel
+BuildRequires:	bzip2-devel
 BuildRequires:	glib2-devel
 BuildRequires:	ncursesw-devel
 BuildRequires:	libxml2-devel
