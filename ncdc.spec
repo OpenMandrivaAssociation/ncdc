@@ -1,8 +1,8 @@
 %define	Werror_cflags	%nil
 
 Name:		ncdc
-Version:	1.6
-Release:	1.1
+Version:	1.7
+Release:	1
 Summary:	Lightweight Direct Connect Client
 Source0:	http://dev.yorhel.nl/download/ncdc-%{version}.tar.gz
 Source1:	ncdc.desktop
@@ -28,8 +28,8 @@ interface.
 
 %prep
 %setup -q
-%patch1
-%patch2
+#%patch1
+#%patch2
 
 %build
 %configure
