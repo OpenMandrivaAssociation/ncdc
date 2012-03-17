@@ -1,7 +1,7 @@
 %define	Werror_cflags	%nil
 
 Name:		ncdc
-Version:	1.7
+Version:	1.9
 Release:	1
 Summary:	Lightweight Direct Connect Client
 Source0:	http://dev.yorhel.nl/download/ncdc-%{version}.tar.gz
