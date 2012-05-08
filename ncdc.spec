@@ -16,6 +16,7 @@ BuildRequires:	sqlite3-devel
 BuildRequires:	ncursesw-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	gdbm-devel
+BuildRequires:	gnutls-devel
 BuildRequires:	sqlite-devel
 BuildRequires:	gcc make glibc-devel pkgconfig
 BuildRequires:	autoconf automake libtool
