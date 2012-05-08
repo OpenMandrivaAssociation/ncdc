@@ -1,13 +1,11 @@
 %define	Werror_cflags	%nil
 
 Name:		ncdc
-Version:	1.9
+Version:	1.10
 Release:	1
 Summary:	Lightweight Direct Connect Client
 Source0:	http://dev.yorhel.nl/download/ncdc-%{version}.tar.gz
 Source1:	ncdc.desktop
-Patch1:		ncdc-remove_build_date.patch
-Patch2:		ncdc-add_missing_includes.patch
 URL:		http://dev.yorhel.nl/ncdc
 Group:		Networking/File transfer
 License:	MIT
@@ -28,11 +26,9 @@ interface.
 
 %prep
 %setup -q
-#%patch1
-#%patch2
 
 %build
-%configure
+%configure2_5x --enable-db-upgrade
 %make
 
 %install
@@ -42,9 +38,7 @@ install -D -m0644 %{SOURCE1} %{buildroot}%{_datadir}/applications/%{name}.deskto
 %files
 %doc ChangeLog COPYING README
 %{_bindir}/ncdc
-%{_bindir}/ncdc-gen-cert
 %{_bindir}/ncdc-db-upgrade
 %{_datadir}/applications/%{name}.desktop
 %doc %{_mandir}/man1/ncdc.1*
-%doc %{_mandir}/man1/ncdc-gen-cert.1*
 %doc %{_mandir}/man1/ncdc-db-upgrade.1*
