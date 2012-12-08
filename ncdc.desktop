@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=true
+Exec=ncdc
+Type=Application
+Categories=
+StartupNotify=false
+Name=Lightweight Direct Connect Client
+GenericName=Direct Connect Client

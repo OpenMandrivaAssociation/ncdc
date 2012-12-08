@@ -41,3 +41,34 @@ install -D -m0644 %{SOURCE1} %{buildroot}%{_datadir}/applications/%{name}.deskto
 %{_datadir}/applications/%{name}.desktop
 %doc %{_mandir}/man1/ncdc.1*
 %doc %{_mandir}/man1/ncdc-db-upgrade.1*
+
+
+%changelog
+* Mon Jul 16 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.12-1
++ Revision: 809815
+- version update 1.12
+
+* Sat May 19 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.11-1
++ Revision: 799689
+- version update 1.1.1
+
+* Wed May 09 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.10-1
++ Revision: 797634
+- BR: gnutls-devel
+- version update 1.10
+
+* Mon Mar 19 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.9-1
++ Revision: 785754
+- Broken archive
+- version update 1.9
+
+* Tue Feb 14 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.7-1
++ Revision: 773920
+- version update 1.7
+- sqlite3-devel package 2011 fix
+
+* Wed Dec 28 2011 Alexander Khrukin <akhrukin@mandriva.org> 1.6-1.1
++ Revision: 745911
+- BR fix
+- imported package ncdc
+
