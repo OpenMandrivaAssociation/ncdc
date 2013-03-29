@@ -1,5 +1,5 @@
 Name:		ncdc
-Version:	1.12
+Version:	1.16.1
 Release:	1
 Summary:	Lightweight Direct Connect Client
 Source0:	http://dev.yorhel.nl/download/ncdc-%{version}.tar.gz
@@ -37,10 +37,8 @@ install -D -m0644 %{SOURCE1} %{buildroot}%{_datadir}/applications/%{name}.deskto
 %files
 %doc ChangeLog COPYING README
 %{_bindir}/ncdc
-%{_bindir}/ncdc-db-upgrade
 %{_datadir}/applications/%{name}.desktop
 %doc %{_mandir}/man1/ncdc.1*
-%doc %{_mandir}/man1/ncdc-db-upgrade.1*
 
 
 %changelog
