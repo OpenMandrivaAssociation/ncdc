@@ -1,22 +1,21 @@
+Summary:	Lightweight Direct Connect Client
 Name:		ncdc
 Version:	1.16.1
 Release:	1
-Summary:	Lightweight Direct Connect Client
-Source0:	http://dev.yorhel.nl/download/ncdc-%{version}.tar.gz
-Source1:	ncdc.desktop
-URL:		http://dev.yorhel.nl/ncdc
 Group:		Networking/File transfer
 License:	MIT
-BuildRequires:	ncurses-devel
+Url:		http://dev.yorhel.nl/ncdc
+Source0:	http://dev.yorhel.nl/download/ncdc-%{version}.tar.gz
+Source1:	ncdc.desktop
+BuildRequires:	libtool
 BuildRequires:	bzip2-devel
-BuildRequires:	pkgconfig(glib-2.0)
-BuildRequires:	sqlite3-devel	
-BuildRequires:	ncursesw-devel
-BuildRequires:	libxml2-devel
 BuildRequires:	gdbm-devel
-BuildRequires:	gnutls-devel
-BuildRequires:	sqlite-devel
-BuildRequires:	autoconf automake libtool
+BuildRequires:	pkgconfig(glib-2.0)
+BuildRequires:	pkgconfig(gnutls)
+BuildRequires:	pkgconfig(libxml-2.0)
+BuildRequires:	pkgconfig(ncurses)
+BuildRequires:	pkgconfig(ncursesw)
+BuildRequires:	pkgconfig(sqlite3)
 
 %description
 Ncdc is a modern and lightweight direct connect client with a friendly ncurses
@@ -38,3 +37,4 @@ install -D -m0644 %{SOURCE1} %{buildroot}%{_datadir}/applications/%{name}.deskto
 %{_bindir}/ncdc
 %{_datadir}/applications/%{name}.desktop
 %doc %{_mandir}/man1/ncdc.1*
+
