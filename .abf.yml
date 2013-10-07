@@ -1,4 +1,5 @@
 removed_sources:
   ncdc-1.12.tar.gz: f25e1960ca1f1a5dc8a028debbb748d13382bfb0
-sources:
   ncdc-1.16.1.tar.gz: 3bdbf8c58a95eab2dc318bd853be991343f88fe9
+sources:
+  ncdc-1.18.tar.gz: 407515d187403492372b4f22625bc403393e51fb
