@@ -1,7 +1,7 @@
 Summary:	Lightweight Direct Connect Client
 Name:		ncdc
-Version:	1.22.1
-Release:	5
+Version:	1.23
+Release:	1
 Group:		Networking/File transfer
 License:	MIT
 Url:		http://dev.yorhel.nl/ncdc
