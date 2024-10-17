@@ -4,7 +4,7 @@ Version:	1.23.1
 Release:	2
 Group:		Networking/File transfer
 License:	MIT
-Url:		http://dev.yorhel.nl/ncdc
+Url:		https://dev.yorhel.nl/ncdc
 Source0:	http://dev.yorhel.nl/download/ncdc-%{version}.tar.gz
 Source1:	ncdc.desktop
 BuildRequires:	libtool
