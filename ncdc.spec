@@ -7,6 +7,11 @@ License:	MIT
 Url:		https://dev.yorhel.nl/ncdc
 Source0:	http://dev.yorhel.nl/download/ncdc-%{version}.tar.gz
 Source1:	ncdc.desktop
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libtool
 BuildRequires:	bzip2-devel
 BuildRequires:	gdbm-devel
